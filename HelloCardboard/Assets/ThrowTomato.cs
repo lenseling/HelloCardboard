@@ -11,13 +11,11 @@ public class ThrowTomato : MonoBehaviour
     private float lastSpawnTime = 0f;
     public float spawnDelay = 0.2f;
 
-    // Start is called before the first frame update
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Touchscreen.current.press.isPressed && Time.time > lastSpawnTime + spawnDelay)

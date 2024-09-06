@@ -4,6 +4,9 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/TomatoTossGame.unity
+    guid: 02b22eabe90848144a0d8977d339b3ee
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: dacff0f3b1973ac4db33de2203277d73, type: 2}
